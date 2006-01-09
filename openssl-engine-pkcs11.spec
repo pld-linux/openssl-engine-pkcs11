@@ -5,7 +5,7 @@ Version:	0.1.3
 Release:	1
 License:	BSD-like
 Group:		Libraries
-Source0:	http://www.opensc.org/files/engine_pkcs11-%{version}.tar.gz
+Source0:	http://www.opensc.org/files/engine_pkcs11/engine_pkcs11-%{version}.tar.gz
 # Source0-md5:	26eb84950a10b7d869e41a50620ebf09
 URL:		http://www.opensc.org/engine_pkcs11/
 BuildRequires:	libp11-devel >= 0.2.1
