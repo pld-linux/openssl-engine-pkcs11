@@ -1,12 +1,12 @@
 Summary:	PKCS#11 engine for OpenSSL
 Summary(pl.UTF-8):	Silnik PKCS#11 dla OpenSSL-a
 Name:		openssl-engine-pkcs11
-Version:	0.1.3
+Version:	0.1.4
 Release:	1
 License:	BSD-like
 Group:		Libraries
 Source0:	http://www.opensc-project.org/files/engine_pkcs11/engine_pkcs11-%{version}.tar.gz
-# Source0-md5:	26eb84950a10b7d869e41a50620ebf09
+# Source0-md5:	b9cf1ae8b8ae47ce7ab7f7a48583845b
 URL:		http://www.opensc-project.org/engine_pkcs11/
 BuildRequires:	libp11-devel >= 0.2.1
 BuildRequires:	openssl-devel >= 0.9.7d
@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc doc/{ChangeLog,*.{html,css}}
+%doc NEWS doc/{ChangeLog,*.{html,css}}
 %dir %{_libdir}/engines
 %attr(755,root,root) %{_libdir}/engines/engine_pkcs11.so
