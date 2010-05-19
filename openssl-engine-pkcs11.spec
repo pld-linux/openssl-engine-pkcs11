@@ -15,6 +15,8 @@ Requires:	libp11 >= 0.2.4
 Requires:	openssl >= 0.9.7d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%undefine	__cxx
+
 %description
 engine_pkcs11 is an implementation of an engine for OpenSSL. It can be
 loaded using code, config file or command line and will pass any
