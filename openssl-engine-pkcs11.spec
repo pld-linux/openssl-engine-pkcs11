@@ -8,7 +8,7 @@ Group:		Libraries
 Source0:	http://www.opensc-project.org/files/engine_pkcs11/engine_pkcs11-%{version}.tar.gz
 # Source0-md5:	693b402eafba152666e66431ed4c1b9e
 URL:		http://www.opensc-project.org/engine_pkcs11/
-BuildRequires:	libp11-devel >= 0.2.4
+BuildRequires:	libp11-devel >= 0.2.5
 BuildRequires:	openssl-devel >= 0.9.8l-2
 BuildRequires:	pkgconfig
 Requires:	libp11 >= 0.2.5
